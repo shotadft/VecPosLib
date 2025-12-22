@@ -46,7 +46,7 @@ setup(
         "package": ["py.typed"],
     },
     include_package_data=True,
-    install_requires=["numpy>=2.2.0,<2.4", "numba>=0.61.2"],
+    install_requires=["numpy>=2.2.0,<2.5", "numba>=0.61.2"],
     extras_require={
         "cupy": ["cupy>=10.0"],
     },
